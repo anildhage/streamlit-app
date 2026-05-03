@@ -1,14 +1,6 @@
-# streamline-app
-streamline-app
-
-
+# Copilot Instructions
 
 This project is created to build a simple streamlit app but majorly to test & apply features of Github Copilot to this repository and application to understand the end to end setup and workflows of copilot.
 From Basic to Advanced features.
 
-
-	1.	Inline completions.
-	2.	Ask mode / chat prompts.
-	3.	Edits for controlled multi-file changes.
-	4.	CLI for terminal-assisted tasks.
-	5.	Prompting patterns, context, and review habits.
+Streamlit app is only a use case. Main goal is to apply hands on Copilot features on this repo.
