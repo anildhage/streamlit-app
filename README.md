@@ -1,55 +1,52 @@
-# Streamline App
+# Project Overview
 
-## Overview
-Streamline App is a Python-based Streamlit application. It is designed to load data from CSV files and external APIs, transform and combine data using pandas, and display outputs in Streamlit using tables, filters, metrics, and charts.
+This repository is for a local-first Python application that combines:
+- Skill training and learning notes.
+- Career roadmap tracking.
+- Project tracking and resume bullet generation.
+- Personal finance tracking using Plaid.
+- Todo and goals management.
+- Unified dashboards.
 
-## Prerequisites
-- Python 3.8 or higher
-- pip (Python package installer)
+## Setup
 
-## Installation
 1. Clone the repository:
    ```bash
    git clone <repository-url>
    ```
 2. Navigate to the project directory:
    ```bash
-   cd streamline-app
+   cd streamlit-app
    ```
-3. (Optional) Create and activate a virtual environment:
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate  # On Windows, use .venv\Scripts\activate
-   ```
-4. Install the required dependencies:
+3. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-## Running the Application
-To run the Streamlit app, use the following command:
+## Run Locally
+
+Start the application:
 ```bash
 streamlit run app.py
 ```
 
+## Environment Variables
+
+Ensure the following environment variables are set:
+- `PLAID_CLIENT_ID`: Your Plaid client ID.
+- `PLAID_SECRET`: Your Plaid secret.
+
+## Scripts
+
+- `run`: Start the application.
+- `test`: Run tests.
+
 ## Project Structure
-```
-streamline-app/
-├── .github/             # GitHub-specific configurations
-├── .venv/               # Virtual environment (optional, not included in version control)
-├── LICENSE              # License file
-├── README.md            # Project documentation
-├── requirements.txt     # Python dependencies
-```
 
-## TODO
-- Add `app.py` with Streamlit layout and logic.
-- Define data transformation logic.
-- Integrate external APIs.
-- Add unit tests.
-- Improve documentation.
+- `docs/`: Documentation files.
+- `prompts/`: Prompt files for AI agents.
+- `README.md`: Project overview.
 
----
+## Troubleshooting
 
-This project is licensed under the MIT License. See the LICENSE file for details.
-
+If you encounter issues, ensure all dependencies are installed and environment variables are correctly set.
