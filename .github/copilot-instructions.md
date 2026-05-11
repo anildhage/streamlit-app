@@ -75,6 +75,12 @@ This repository is for a local-first Python application that combines:
 - developer building the application is not an expert in all domains, so clear explanations are crucial for maintainability and future contributions.
 - keep your responses concise and small and focused. Dont try to solve everything at once. It's better to make incremental improvements and get feedback than to implement a large change that may not fit the project's needs or style.
 
+## Development Philosophy
+
+- **Incremental Development**: Always build small, functional pieces of code step by step.
+- **Test Early and Often**: Verify each step independently before moving to the next.
+- **Modularity**: Keep the code modular and maintainable.
+- **Simplicity**: Avoid over-engineering; focus on clarity and maintainability.
 
 ## Copilot behavior
 - Follow the existing folder structure.
